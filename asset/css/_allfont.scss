@@ -1,0 +1,30 @@
+$bold : "poppins-bold";
+$semi : "poppins-semi";
+$medium : "poppins-medium";
+$regular : "poppins-regular";
+$light :"poppins-light";
+
+@font-face {
+    font-family: $bold;
+    src: url("../font/poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: $semi;
+    src: url("../font/poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: $medium;
+    src: url("../font/poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: $regular;
+    src: url("../font/poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: $light;
+    src: url("../font/poppins/Poppins-Light.ttf");
+}

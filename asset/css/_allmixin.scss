@@ -1,0 +1,23 @@
+@mixin setlocation1($display, $justify, $align) {
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin setlocation2($display, $direction, $justify) {
+    display: $display;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+
+@mixin setlocation3 ($display, $direction) {
+    display: $display;
+    flex-direction: $direction;
+}
+
+@mixin setlocation4($display, $direction, $align, $justify) {
+    display: $display;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
